@@ -347,6 +347,7 @@ $ sudo vim /lib/systemd/system/web-server.service
 ```
 $ sudo systemctl daemon-reload
 $ sudo systemctl start web-server
+$ sudo systemctl enable web-server
 $ sudo systemctl status web-server
 ```
 
