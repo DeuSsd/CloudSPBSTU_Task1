@@ -248,8 +248,8 @@ network:
       dhcp4: true
     enp0s8:
       dhcp4: false
-      addresses: [192.168.6.10/24]
-      gateway4: 192.168.6.1
+      addresses: [192.168.7.100/24]
+      gateway4: 192.168.7.1
   version: 2
 ```
 
@@ -316,6 +316,15 @@ root# sudo iptables-save > /etc/iptables/rules.v4
 root# sudo ip6tables-save > /etc/iptables/rules.v6
 root# exit
 ```
+
+![](./assets/screens/Screenshot_28.png)
+
+---
+
+**Текущая конфигурация сети выглядит теперь следующим образом**
+
+![](./assets/scheme.png)
+
 
 ---
 
